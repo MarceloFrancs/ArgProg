@@ -1,0 +1,49 @@
+html{
+    color: #444;
+    background-color: white;
+    display: block;
+    border: 1px solid rgba(200, 12, 2, 1);
+}
+body{
+    width: 880px;
+    margin: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 40px;
+}
+ul{
+    align-items: stretch;
+}
+.contenedorboton{
+    width: 140px;
+    height: 70px;
+}
+img.boton{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.botones{
+    text-align: center;
+    float: right;
+}
+.cabecera{
+    display: inside;
+}
+.barra{
+    transition: text-shadow 0.5s ease;
+}
+.barra:hover{
+    color: blue;
+    text-shadow: #aaa 10px 5px 3px;
+    /* background-color: #eee */
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    transition: text-shadow 0.5s ease;
+}
+footer:hover{
+    color: blue;
+    text-shadow: #aaa 10px 5px 3px;
+}
